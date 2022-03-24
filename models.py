@@ -4,7 +4,6 @@ from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, DateT
 
 staging_pg_engine = create_engine("postgresql://user:password@host/database")
 staging_pg_conn = staging_pg_engine.connect()
-
 Base = declarative_base()
 
 
