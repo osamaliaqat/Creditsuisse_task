@@ -19,7 +19,7 @@ http://127.0.0.1:5000/create_post
 Parameters required : post_description
 
 3. Get All Posts :
-http://127.0.0.1:5000/allposts
+http://127.0.0.1:5000/all_posts
 
 4. Update the post :
 http://127.0.0.1:5000/update_post
