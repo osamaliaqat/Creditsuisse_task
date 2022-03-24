@@ -9,8 +9,8 @@ from flask_jwt_extended import get_jwt_identity
 from flask_jwt_extended import jwt_required
 from flask_jwt_extended import JWTManager
 from utils import get_user
-Base.metadata.create_all(staging_pg_engine)
 
+Base.metadata.create_all(staging_pg_engine)
 
 app = Flask(__name__)
 app.app_context().push()

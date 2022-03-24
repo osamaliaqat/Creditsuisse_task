@@ -1,5 +1,3 @@
-# creditsuisse_task
-
 INSTALLATION
 
 git clone https://github.com/osamaliaqat/creditsuisse_task.git

@@ -1,4 +1,4 @@
-from models import Base, staging_pg_engine, user, posts
+from models import staging_pg_engine, user
 from sqlalchemy.orm import Session
 
 
