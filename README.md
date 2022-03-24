@@ -1,6 +1,6 @@
 INSTALLATION
 
-git clone https://github.com/osamaliaqat/creditsuisse_task.git
+git clone https://github.com/osamaliaqat/creditSuisse_task.git
 
 pip install requirements.txt
 
