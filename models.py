@@ -1,10 +1,8 @@
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, DateTime
-from sqlalchemy.orm import relationship
-from werkzeug.security import generate_password_hash, check_password_hash
 
 
-staging_pg_engine = create_engine("postgresql://osama:swati123@localhost/postgres")
+staging_pg_engine = create_engine("postgresql://user:password@host/database")
 staging_pg_conn = staging_pg_engine.connect()
 
 Base = declarative_base()
